@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
-    
+    p En este componente formativo se abordaron los aspectos fundamentales para la planificación de estudios de caudal ambiental, considerando la organización de actividades técnicas, el uso de herramientas digitales y la elaboración de cronogramas para orientar el desarrollo del estudio.
+    p Asimismo, se destacó la importancia de identificar los recursos necesarios y estructurar un presupuesto acorde con el alcance, la metodología y los requerimientos técnicos. Estos elementos permiten organizar las actividades y optimizar los recursos disponibles, favoreciendo el desarrollo eficiente y ordenado de los estudios de caudal ambiental.
 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-11.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="Diagrama conceptual sobre la proyección de recursos para el estudio de caudales ambientales, que incluye la planeación del estudio técnico, el plan de trabajo, las etapas del estudio y las herramientas digitales para su planificación y ejecución. También presenta los componentes del presupuesto, su concepto y las recomendaciones para su elaboración y presentación.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
