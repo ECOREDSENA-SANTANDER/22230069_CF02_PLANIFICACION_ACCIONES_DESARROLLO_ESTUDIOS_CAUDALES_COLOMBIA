@@ -70,7 +70,7 @@
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: #fff !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
+  color: $color-sistema-texto
 figcaption 
     font-weight: normal !important
 
@@ -95,9 +95,65 @@ figcaption
   &-1
     background-color: $color-primario
 
+.bg1
+  background-color: #BBFFEF
+.bg2
+  background-image: url('../assets/curso/temas/t3/fondo.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    background-size: cover 
+.bg3
+  background-color: #F6F6F6
+.bg4
+  background-color: #D5A77A
+.text-izq
+  text-align: left !important
+.fondo01
+  background-image: url('../assets/curso/temas/t3/fondo2.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
 
+.fa-angle-right2
+  content: url('../assets/curso/temas/t3/gota.svg')
+  align-self: flex-start !important
+  width: 11px
+.lista-ul--color li 
+  display: flex
+  align-items: flex-start !important 
 
+.acordion__accion__btn--a 
+  background-color: #F1B616 !important
+.acordion .tarjeta--azul
+  background-color: #33281D !important
+  .acordion__titulo h3
+    color: #fff !important
+  &.acordion__activo
+    .acordion__titulo h3
+      color: #000 !important
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #BBFFEF !important
 
+.w-card-icon
+  width: min-content
+  z-index: 1
+.w-card-text
+  position: relative
+  padding-left: 50px
+  padding-right: 50px
+  left: 0px
+  top: 8px
 
 
 
