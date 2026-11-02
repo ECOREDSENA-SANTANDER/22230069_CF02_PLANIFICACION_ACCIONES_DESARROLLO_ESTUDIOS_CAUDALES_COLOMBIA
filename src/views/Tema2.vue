@@ -329,8 +329,7 @@
    
     p Una adecuada formulación del presupuesto permite optimizar la asignación de los recursos, anticipar necesidades financieras, reducir el riesgo de sobrecostos y facilitar el seguimiento económico del proyecto. De esta manera, contribuye al desarrollo ordenado de las actividades y al cumplimiento de los objetivos técnicos del estudio de caudal ambiental.
 
-
-
+     
 
 
 
