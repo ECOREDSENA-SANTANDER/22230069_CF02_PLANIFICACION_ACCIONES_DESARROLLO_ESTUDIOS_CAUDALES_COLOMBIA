@@ -10,7 +10,7 @@
       h1 Introducción
     
     .row.justify-content-center.mb-3(data-aos="fade-left")
-      .col-lg-5.mb-3.p-0.col-10
+      .col-lg-5.mb-3.p-0.col-10.col-md-8
         img(src='@/assets/curso/temas/intro/img01.png', alt='')
       .col-lg-7
         .row.justify-content-center

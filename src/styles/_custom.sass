@@ -75,7 +75,10 @@ figcaption
     font-weight: normal !important
 
 .banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+  color: $color-acento-botones !important
+.titulo-segundo:after 
+  border-left-color: #D5A77A
+  
 
 
 /**************************************************************/
@@ -106,10 +109,23 @@ figcaption
     background-size: cover 
   @media screen and (max-width: 767px)
     background-size: cover 
+.bg02
+  background-image: url('../assets/curso/temas/t2/bg02.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    background-size: cover 
 .bg3
   background-color: #F6F6F6
 .bg4
   background-color: #D5A77A
+.bg5
+  background-color: #9BBCCB
+.bg6
+  background-color: #BEE5F7
 .text-izq
   text-align: left !important
 .fondo01
@@ -144,6 +160,13 @@ figcaption
       color: #000 !important
 .acordion .tarjeta.tarjeta--azul.acordion__activo
   background-color: #BBFFEF !important
+.tarjeta.color-primario * 
+  color: #12263F
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: #12263F
+  font-style: normal !important
+.tarjeta-audio.color-acento-botones .tarjeta-audio__input input[type=range] 
+  background: #EAEDF8
 
 .w-card-icon
   width: min-content
@@ -154,6 +177,17 @@ figcaption
   padding-right: 50px
   left: 0px
   top: 8px
+.linea-tiempo-d.color-primario .linea-tiempo-d__item__number
+  background-color: #9BBCCB !important
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item__content
+    background-color: #9BBCCB !important
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #F1B616 !important
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+    background-color: #F5F1C1 !important
 
 
 
@@ -189,4 +223,35 @@ figcaption
     margin-bottom: 2em  !important
 
   
- 
+@media (max-width: 767px)
+  .linea-tiempo-d
+    .linea-tiempo-d__item
+      width: 100%
+      max-width: 100%
+
+      .col-auto
+        flex: 0 0 42px
+        max-width: 42px
+        padding: 0
+
+      .col
+        flex: 1 1 0
+        min-width: 0
+        padding-left: 8px
+        padding-right: 8px
+
+    .linea-tiempo-d__item__content
+      width: 100%
+      max-width: 100%
+      min-width: 0
+      padding: 20px 8px
+      box-sizing: border-box
+      overflow-wrap: break-word
+
+    .linea-tiempo-d__item__content__title
+      padding: 0
+      margin-bottom: 8px
+
+    img
+      max-width: 100%
+      height: auto
