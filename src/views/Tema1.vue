@@ -251,7 +251,7 @@
             .col-lg-10
               p El desarrollo de un estudio técnico de caudal ambiental comprende una serie de etapas articuladas que permiten organizar la recopilación de información, analizar las condiciones del sistema hídrico y establecer un régimen de caudales que contribuya a la conservación de los ecosistemas acuáticos y considere los usos del recurso hídrico.
             p Aunque la secuencia y el alcance de las actividades pueden variar según las características del sistema hídrico, la metodología seleccionada y los objetivos de la evaluación, el estudio generalmente comprende cinco fases: planeación, recolección de información, procesamiento y análisis, interpretación de resultados y elaboración del informe técnico. Estas fases facilitan el desarrollo ordenado del estudio y la obtención de resultados técnicamente sustentados (IDEAM & MADS, 2017; ANLA, 2013).
-      p Entre las principales características se encuentran las siguientes:
+      
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-9

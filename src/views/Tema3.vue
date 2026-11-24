@@ -80,7 +80,7 @@
 
       .row.justify-content-center(titulo="Definir los recursos necesarios")
         .col-md-11.mb-4.mb-md-0
-          p Establecer los perfiles profesionales, los equipos de medición, los materiales, las herramientas digitales, el software y los recursos logísticos requeridos para ejecutar las actividades identificadas.
+          p Establecer los perfiles profesionales, los equipos de medición, los materiales, las herramientas digitales, el #[em software] y los recursos logísticos requeridos para ejecutar las actividades identificadas.
 
       .row.justify-content-center(titulo="Organizar la secuencia de trabajo")
         .col-md-11.mb-4.mb-md-0

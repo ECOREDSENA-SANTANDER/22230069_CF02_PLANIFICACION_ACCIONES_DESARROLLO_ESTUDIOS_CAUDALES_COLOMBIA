@@ -39,7 +39,7 @@
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
       .col-lg-8
-        img(src='@/assets/curso/temas/t2/img04.svg', alt='')
+        img(src='@/assets/curso/temas/t2/img04.svg', alt='Infografía sobre los componentes de un presupuesto para un estudio de caso ambiental, divididos en costos directos, costos indirectos, síntesis del presupuesto y consideraciones clave.')
 
     .row.justify-content-start.mb-0(data-aos="zoom-in-left")
         .col-sm-12.col-lg-9
@@ -159,7 +159,7 @@
 
     .row.justify-content-center.align-items-center.mb-4.bg1.p-4(data-aos="fade-left")
       .col-lg-12
-        p.mb-0 Como alternativa para optimizar los recursos financieros, pueden evaluarse herramientas de código abierto y de uso libre, como QGIS, R y Python, que permiten realizar análisis espaciales y estadísticos, automatizar procedimientos y procesar diferentes tipos de datos. Sin embargo, la elección del software no debe depender únicamente de su costo, sino también de su funcionalidad, compatibilidad con los formatos de información, capacidad técnica del equipo de trabajo y correspondencia con la metodología seleccionada.
+        p.mb-0 Como alternativa para optimizar los recursos financieros, pueden evaluarse herramientas de código abierto y de uso libre, como QGIS, R y Python, que permiten realizar análisis espaciales y estadísticos, automatizar procedimientos y procesar diferentes tipos de datos. Sin embargo, la elección del #[em software] no debe depender únicamente de su costo, sino también de su funcionalidad, compatibilidad con los formatos de información, capacidad técnica del equipo de trabajo y correspondencia con la metodología seleccionada.
 
     p Por lo tanto, la selección de las herramientas digitales debe realizarse durante la etapa de planificación, con el propósito de identificar anticipadamente las necesidades de licenciamiento, evitar gastos imprevistos y garantizar la compatibilidad entre los programas utilizados en las diferentes fases del estudio.
 
