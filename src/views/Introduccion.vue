@@ -30,7 +30,10 @@
 
     p Este componente formativo proporciona los conocimientos necesarios para proyectar las actividades y los recursos requeridos en la ejecución de estudios de caudal ambiental, de acuerdo con la metodología seleccionada. Asimismo, desarrolla los fundamentos para la elaboración de planes de trabajo, cronogramas, presupuestos y estrategias de seguimiento, fortaleciendo las competencias del aprendiz para participar en procesos de planificación técnica bajo criterios de eficiencia, calidad y cumplimiento de la normativa ambiental vigente (ISO, 2020; PMI, 2021).
 
-
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/RNTgR1uOy30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Proyección de recursos para el estudio de caudales ambientales
 
 </template>
 

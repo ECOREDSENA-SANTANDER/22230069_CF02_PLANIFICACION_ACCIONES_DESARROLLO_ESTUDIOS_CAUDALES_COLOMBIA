@@ -80,7 +80,7 @@
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-botones.mb-2.p-3(
             texto="Pódcast: Equipos y materiales "
-            :audio="require_src('@/assets/curso/temas/t1/podcast.svg')"
+            :audio="require_src('@/assets/curso/temas/t1/podcast.mp3')"
         )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.mb-0 ¡Explore el pódcast sobre #[b equipos y materiales] para los estudios de caudales ambientales y descubra cómo contribuyen a la recolección de datos confiables y al desarrollo de estudios eficientes!
